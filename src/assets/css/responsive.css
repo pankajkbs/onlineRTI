@@ -1,0 +1,112 @@
+@media (max-width:1169px) {
+.container, .padding-sm-50{padding: 0 50px;}
+.home-banner{height: 330px;}
+.social-links{top: 70px;}
+.RTI-policy > ul {text-align: center; margin:2px 0;}
+.RTI-policy > ul > li{border: 1px solid #959595;float: left;margin: 2px;width: 19.5%;}
+.left-arrow,.left-turn{right:15px;}
+.right-arrow,.right-turn{right:65px;}
+.services-links li a{font-size:11px;}
+.about-content a{font-size: 13px;}
+.about-content > p {color: #7b7b7b;font-size:13px;line-height: 19px;margin-bottom: 10px;}
+.about-us-rti .row{margin-bottom:30px;}
+.about-content > h2{font-size: 19px;margin-bottom: 8px;}
+}
+
+@media (max-width:1023px) {
+.header-right-menu{right: 65px;}
+.nav{position: relative;z-index: 2;}
+.navbar-nav {background-color: #165392;margin: 0 -15px;z-index: 20;}
+header .navbar-default .navbar-nav > li > a {border-bottom: 1px solid #a1a1a1;padding-bottom: 10px;padding-top: 10px;text-align: center;}
+header .navbar-default .navbar-nav > li > a:hover, header .navbar-default .navbar-nav > li > a:focus {background-color: #2ebed4;color: #ffffff;}
+.navbar-default .navbar-toggle .icon-bar{background-color: #ffffff;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color:transparent;}
+.navbar-toggle{border-radius: 3px;}
+.contact-us .track .rti-application-form{max-width: 100%;}
+}
+
+@media (max-width:1023px) {
+.home-banner-content{padding: 0 35px;}
+.banner-head{font-size: 20px;}
+.home-banner-content{padding: 0 10px 0 45px;}
+.banner-head{font-size: 15px;}
+.top-mobile-40{margin-top: 40px;}
+.mob-margin-bottom-20{margin-bottom:20px;}
+}
+
+@media (max-width:979px) {
+.container, .padding-sm-50{padding: 0 20px;}
+.requestBox .btn { margin-bottom: 5px; }
+.copyRight{ padding-bottom: 50px;}
+.home-banner-content{padding:10px 20px;}
+.social-links{bottom: 0;top: auto;}
+.social-links > ul > li{float: left;}
+.social-links > ul > li > a{height: 40px;width: 40px;line-height: 40px;}
+.RTI-policy > ul > li{width: 19.4%;}
+.RTI-policy > ul > li > a{min-height: 109px;}
+.online-rti-para{font-size: 13px;}
+.rti-girl{display: block;left: auto;margin: auto;position: relative;top: auto;}
+.frequently-ask-question{padding-left: 10px;padding-right: 10px;}
+.rti-girl{margin: 20px 0 0;}
+.rti-girl > img{display: block;margin: auto;max-width: 225px;}
+.rti-panel.padding-top50{padding-top: 10px;}
+.frequently-ask-question .main-head-black{text-align: center;}
+.frequently-ask-question .main-head-black::after{ left:0; right:0; margin: auto;}
+.customer_slider .owl-carousel .owl-item img{display: block !important;margin-bottom: 10px;width: auto;}
+.customer-sm > span{padding-left: 0;}
+}
+
+@media (max-width:767px) {
+.social-links {bottom: 0;top: auto;left: 0;right: 0;margin: auto;width: 200px;}
+.main-head-black-mid{font-size: 21px;}
+.rti-application-form{padding: 15px;}
+.track.padding-40{padding:10px;}
+.track-banner > h2 {padding:45px 20px; font-size: 21px;}
+.banner-head{font-size: 17px;}
+.home-banner{height: 200px;}
+.RTI-policy > ul > li {width: 24.2%;}
+.online-RTI-section::after {bottom: -20px;height: 1px;left: 20px;position: absolute;right: 20px;top: auto;width: auto;background-color: #828282;}
+.online-RTI-section{margin-bottom: 40px;}
+.online-RTI-section:last-child{margin-bottom:0px;}
+.request-head{color: #ffffff;font-size: 22px;}
+.top-mobile-20{margin-top: 20px;}
+.top-xs-mobile-40{margin-top: 40px;}
+.copyRight{text-align: center;}
+.copyRight .text-right{text-align: center;}
+.copyRight ul li a,.copyRight span{font-size:13px;}
+.requestBox::after{width:0;}
+.faq .panel-heading { padding: 10px; }
+.faq .panel-title { font-size: 15px; }
+.faq .panel-body { font-size: 13px; padding: 10px; }
+.faq.padding-40{padding: 10px 0;}
+.contact-us .container,.apply .container{padding: 0 10px;}
+.contact-us.padding-40{padding: 10px 0;}
+.step-forms{padding: 15px;}
+.bootstrapWizard li .title {text-transform: capitalize;}
+.about-content > h2{margin-top:8px; font-size:17px;}
+.about-us-rti.padding-40{padding: 20px 0 0 0;}
+.heading-rti{font-size: 15px;}
+.my-4{color: #222222;font-size: 20px;}
+}
+
+@media (max-width:639px) {
+.RTI-policy > ul > li{width: 32.3%;}
+.left-arrow,.right-arrow{bottom: -30px;top: auto;}
+.left-turn,.right-turn{bottom: -30px;top: auto;}
+.blogbox{margin-bottom: 20px;}
+.main-head-black{font-size: 22px;}
+.banner-head{text-align:left;}
+.search-btn{position: static;width: 100%;margin-top: 10px;}
+.search-form .form-control {padding-right: 5px;}
+.home-banner{height: 250px;}
+.login-popup .modal-dialog{margin:10px;width: auto;}
+}
+
+@media (min-width: 576px){
+.col-sm-6 {-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; }
+}
+
+@media (max-width:479px) {
+.header-right-menu li a{padding: 16px 5px;text-transform:capitalize;}
+.RTI-policy > ul > li{width: 48.5%;}
+}

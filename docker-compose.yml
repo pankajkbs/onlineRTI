@@ -1,0 +1,9 @@
+# docker-compose.yml (tag: v4)
+web:
+  build: .
+  ports:
+  - "3000:3000"
+  volumes:
+  - .:/opt/onlinerti/src
+  environment:
+  - NODE_ENV=development

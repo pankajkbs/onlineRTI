@@ -1,0 +1,58 @@
+.nameGroup {
+    position: relative;
+    height: 50px;
+    padding-left: 50px;
+}
+.nameTittle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    color: #000000;
+    background-color: #dcdcdc;
+    font-weight: 600;
+    font-size: 29px;
+    text-align: center;
+    line-height: 37px;
+}
+.nameTags span {
+    display: block;
+}
+.applicationBox {
+    position: relative;
+    padding-left: 120px;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.applicationDate{position: absolute; height: 100px; width: 100px; border:1px solid #c0bfbf;
+top:0; left: 0;}
+.applicationDate span{background-color: #ffffff; font-size: 14px; text-align: center; color: #000000; display: block;height: 50%;line-height: 50px;font-size: 16px;}
+.applicationDate text{background-color: #5bc0de; color: #ffffff;  text-align: center;display: block;height: 50%;line-height: 50px;font-size: 16px;}
+
+.tag_1 {
+    color: #003160;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.tag_2 {
+    color: #5bc0de;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.tag_3 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #7b7b7b;
+}
+.dashborad-group .processTabs{margin:20px 0;}
+.dashborad-group .processTabs .form-bootstrapWizard {
+    text-align: left;
+}
+.dashborad-group .processTabs .bootstrapWizard li {
+    display: inline-block;
+    float: none;
+}

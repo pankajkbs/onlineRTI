@@ -1,0 +1,67 @@
+/* 29-10-2017 */
+.dash-list li{display: block;}
+.dash-list li a {
+    background-color: #dcdcdc;
+    font-size: 14px;
+    padding: 8px 15px;
+    display: block;
+    margin-bottom: 3px;
+    cursor: pointer;
+    position: relative;
+}
+.dash-list li a::after {
+    position: absolute;
+    content: '';
+    width: 4px;
+    background-color: #2ebed4;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.dash-list li a:hover,.dash-list li.active a{background-color: #003160; color: #ffffff; }
+.dash-list li a:hover::after,.dash-list li.active a::after{opacity: 1;}
+.dashboard-content{padding: 15px; border-radius: 5px; min-height:310px; border: 1px #d4d4d4 solid;}
+.dash-head {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+.dash-head-sub {
+    color: #8a8a8a;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;margin-bottom: 15px; margin-top: 45px;
+}
+.tracking-num {
+    display: block;
+    color: #2ebed4;
+    font-size: 13px;
+    text-decoration: underline; cursor: pointer;
+}
+.payment-details{display: inline-block;color: #8a8a8a;
+    font-size: 13px;
+    font-weight: 600;padding-left: 10px;}
+    .dashborad-group .bootstrapWizard li{display: inline-block; float: none;}
+    .dashborad-group .form-bootstrapWizard{text-align: center;}
+
+.box-success {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px #b7b7b7 dashed;
+    border-radius: 5px;
+    }
+
+.table-bordered {
+        border: 1px solid #004281;
+}
+.table-bordered td {    border: 1px solid #004281;}
+.table-bordered  .bg-info 
+{
+    background-color: #004281;
+    color: white;
+}
