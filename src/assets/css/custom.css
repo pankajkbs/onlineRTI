@@ -40,11 +40,19 @@ header .navbar-brand{color: #ffffff !important; font-size:18px;position: relativ
 header .navbar-brand::after {
     background-color: #ffffff;
     content: "";
-    height: 40px;
+    height: 50px;
     position: absolute;
     right: 0;
-    top: 5px;
-    width: 1px;
+    top: 0px;
+     width: 1px;
+
+   
+}
+    .customer-sm > span {
+    color: #0c3153;
+    font-size: 14px;
+    font-weight: 600;
+    /* padding-left: 5px; */
 }
 header .navbar-brand span{color: #2ebed4;font-size:23px;}
 /********************************** Logo css ********************************/
@@ -60,8 +68,13 @@ header .navbar {
     height: 50px;
     margin: 20px 0 0 16px;
 }
-header .navbar-default .navbar-nav > li > a {color: #ffffff; text-transform: uppercase;padding-bottom: 16px;
-padding-top: 16px;}
+
+header .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+    padding-top: 30px;
+}
 header .navbar-default .navbar-nav > li > a:hover,header .navbar-default .navbar-nav > li > a:focus {color: #2ebed4;}
 header .navbar-default .navbar-nav > li.active > a{background-color: #2ebed4;color: #ffffff;}
 header .navbar-default .navbar-nav > li.active > a:hover{background-color: #2ebed4;color: #ffffff;}
@@ -77,6 +90,11 @@ header .navbar-default .navbar-nav > li.active > a:focus{background-color: #2ebe
 .header-right-menu li a:focus{background-color: transparent ; color:#ffffff;}
 .header-right-menu li.active a{background-color: #2ebed4;color: #ffffff;}
 .nav > li > a:hover, .nav > li > a:focus{background-color: #2ebed4;color: #ffffff;text-decoration: none;}
+
+/***** header css ****/
+.nav>li {
+    top: -20px;
+}
 
 /*home-banner*/
 .home-banner{background:url('../images/banner.png') no-repeat center center; width:100%; height: 450px;position: relative; background-size: cover;}
@@ -134,9 +152,9 @@ header .navbar-default .navbar-nav > li.active > a:focus{background-color: #2ebe
 /*customerbox*/
 .our-happy-customer .container{position: relative;}
 .customerbox{position: relative;width:100%;}
-.customer-sm{margin-bottom: 15px;}
-.customer-sm > span{color: #0c3153;font-size: 14px;font-weight: 600;padding-left: 5px;}
-.customerbox > p{color: #777777;font-size: 14px;line-height: 22px;}
+.customer-sm{margin-bottom: 15px;  width: 20%;float: left;}
+.customer-sm > span{color: #0c3153;font-size: 14px;font-weight: 600;padding-left: 0px;}
+.customerbox > p{color: #777777;font-size: 14px;line-height: 22px;width: 80%;float: right;}
 .aps_icon{position: absolute;right: 0;top: 0;}
 .customer_slider .owl-carousel .owl-item img{display: inline-block !important;width: auto !important;}
 .customer_slider .owl-nav{display: none;}
@@ -786,7 +804,7 @@ font-size: 14px;}
 
 .slick-initialized .slick-slide {
     display: block;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 /********************************** Login css ****************************/
@@ -801,12 +819,34 @@ font-size: 14px;}
     margin: 0 0 0 10px;
 }
 
+.aps_icon img {
+    height: 20px !important;
+}
+.btn-info {
+    color: #fff;
+    background-color: #003160;
+    border-color: transparent !important;
+}
 
+/**************************** Email Form css *******************************/
 
+.st-form {
+    margin: 100px auto 25px;
+    max-width: 80%;
+    position: relative;
+    width: 320px;
+    z-index: 20;
+    background-color: #4c4c4c;
+    padding: 20px;
+}
+/*************************Banner css ***********************************/
+.online-RTI-section {
+    padding: 0px 20px !important;
+}
 
-
-
-
+.padding-top50 {
+    padding-top: 30px!important;
+}
 
 
 

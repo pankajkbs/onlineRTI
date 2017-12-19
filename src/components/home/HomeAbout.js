@@ -19,7 +19,7 @@ class HomeAbout extends React.Component {
         return (
         	<div className="online-RTI padding-40 clearfix">
         		<div className="container">
-        			<div className="main-head">What is Online RTI ?</div>
+        			<div className="main-head">What is RTI Guru ?</div>
         			<div className="row padding-top50">
         				{benefits ? 
         					(
