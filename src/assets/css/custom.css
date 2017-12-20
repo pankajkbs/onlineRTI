@@ -83,7 +83,7 @@ header .navbar-default .navbar-nav > li.active > a:focus{background-color: #2ebe
 /*header-right-menu*/
 .header-right-menu{position: absolute; right:0; top:0;}
 .header-right-menu li{display: inline-block;}
-.header-right-menu li a{display: block;color: #ffffff; text-transform: uppercase;padding: 35px 20px 0 10px;}
+.header-right-menu li a{display: block;color: #ffffff; text-transform: uppercase;padding: 36px 20px 25px 10px;}
 .header-right-menu li.active a{background-color: #2ebed4; color: #ffffff;}
 .header-right-menu li.active a:hover{color: #ffffff;}
 .header-right-menu li a:hover{color: #2ebed4;}
@@ -686,6 +686,9 @@ body {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0px 0px 2px 2px #d4d0d0;
+	min-height: 350px;
+	max-height: 380px;
+	margin: 10px auto;
 }
 .teams img{
     width: auto;
@@ -838,6 +841,9 @@ font-size: 14px;}
     z-index: 20;
     background-color: #4c4c4c;
     padding: 20px;
+}
+#st-el-3 .st-form > label{
+text-align:left;
 }
 /*************************Banner css ***********************************/
 .online-RTI-section {
